@@ -1,11 +1,7 @@
-import AppLayout from "@/layouts/appLayout";
+import Router from "@/router/router";
 
 function App() {
-  return (
-    <AppLayout>
-      <div className="text-3xl text-center mt-20">I Love You Mom💓</div>
-    </AppLayout>
-  );
+  return <Router />;
 }
 
 export default App;
