@@ -19,7 +19,7 @@ const iconClasses = "text-2xl ";
 const List = () => {
   return (
     <div className="mt-4">
-      <ul className="bg-white rounded-2xl p-3 flex flex-col gap-3">
+      <ul className="bg-white rounded-2xl p-3 flex flex-col gap-3 shadow-sm shadow-gray-300">
         {Option.map((op) => {
           const { name, icon } = op;
           return (

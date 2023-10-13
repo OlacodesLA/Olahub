@@ -4,7 +4,7 @@ import Hashtags from "../options/hashtags";
 
 const Profile = () => {
   return (
-    <div className="fixed w-[20%] ">
+    <div className="fixed w-[20.6%] ">
       <div className="bg-white rounded-2xl">
         <div className="relative">
           {/* Profile Cover */}

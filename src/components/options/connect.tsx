@@ -3,7 +3,7 @@ import { connections } from "../data/connect";
 
 const Connect = () => {
   return (
-    <div className="mt-4">
+    <div className="mt-4 shadow-sm shadow-gray-300">
       <div className="bg-white rounded-2xl">
         <div className=" py-4 px-5 flex flex-col gap-3">
           <p className="font-medium text-gray-700  text-sm uppercase">

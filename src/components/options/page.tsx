@@ -4,7 +4,7 @@ import { pageList } from "../data/page";
 const Page = () => {
   return (
     <div className="mt-4">
-      <div className="bg-white  rounded-2xl py-4 px-5 flex flex-col gap-3">
+      <div className="bg-white  rounded-2xl py-4 px-5 flex flex-col gap-3 shadow-sm shadow-gray-300">
         <ul className="flex gap-3 flex-col">
           {pageList.map((list) => {
             const { name, image } = list;

@@ -4,7 +4,7 @@ import { tags } from "../data/tags";
 const Hashtags = () => {
   return (
     <div className="mt-4">
-      <div className="bg-white rounded-2xl py-4 px-5 flex flex-col gap-3">
+      <div className="bg-white rounded-2xl py-4 px-5 flex flex-col gap-3 shadow-sm shadow-gray-300">
         <div className="flex justify-between items-center ">
           <div className="font-medium text-sm text-gray-700">
             FOLLOWED HASHTAGS
